@@ -28,4 +28,4 @@ def home():
     # arayuzu koddan ayiralim
     return render_template("home_template.html")
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
